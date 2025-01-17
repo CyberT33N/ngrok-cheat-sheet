@@ -13,3 +13,8 @@ curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
   && sudo apt update \
   && sudo apt install ngrok
 ```
+
+Then:
+```shell
+ngrok config add-authtoken xxxxxxxxxxx
+```
