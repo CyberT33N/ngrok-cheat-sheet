@@ -18,3 +18,24 @@ Then:
 ```shell
 ngrok config add-authtoken xxxxxxxxxxx
 ```
+
+
+
+
+<br><br>
+<br><br>
+___
+<br><br>
+<br><br>
+
+
+
+
+# Serve
+
+<br><br>
+
+## Serve local port
+```shell
+ngrok http 3000
+```
