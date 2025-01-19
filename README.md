@@ -39,3 +39,61 @@ ___
 ```shell
 ngrok http 3000
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+___
+<br><br>
+<br><br>
+
+
+
+# Auth
+
+<details><summary>Click to expand..</summary>
+
+<br><br>
+
+## Basic Auth
+- https://ngrok.com/docs/http/basic-auth/
+```shell
+ngrok http 11434 \
+  --basic-auth "test:tesxxxxxxxxxxxxxfe" \
+  --host-header="localhost:11434"
+```
+```shell
+curl https://xxxxxxxxx46.ngrok-free.app/v1/chat/completions \
+    --user "testtesxxxxxxxxxxxxxfe" \
+    -H "Content-Type: application/json" \
+    -d '{
+        "model": "llama2",
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant."
+            },
+            {
+                "role": "user",
+                "content": "Hello!"
+            }
+        ]
+    }'
+```
+
+
+</details>
+
+
